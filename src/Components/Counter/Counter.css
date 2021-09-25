@@ -1,0 +1,47 @@
+.input, .btn1, .btn2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #B24242;    
+    font-size: larger;
+    font-weight: bold;    
+    
+}
+
+.input {
+    height: 52px;
+    width : 54px;
+    background-color: #FBE8E8;
+    color: #B24242;
+    text-align: center;    
+    border-left: none;
+    border-right:none;        
+    border-radius: 0;
+}
+
+.btn1, .btn2 {
+    height: 56px;
+    width : 60px;        
+}
+
+.btn1{
+    color: #B24242; 
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;         
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;       
+}
+
+.btn2{
+    background-color: #B24242;
+    color:white;   
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;        
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;       
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    
+}
